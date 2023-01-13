@@ -66,6 +66,7 @@ VALUES(1, 'https://drive.google.com/uc?id=1DczZ1prOhx33FSZpukxWI6aeMNbtFWng'),
 (8, 'https://drive.google.com/uc?id=1yfHeNQ2kMcg6s8Pql2Caee935oVRldIT')
 
 --  VIEW TABELA dProduto
+--  Realizado Join com as tabelas de Categoria, Subcategoria e Imagem para obter o nome da categoria e subcategoria e URL com foto de cada categoria
 
 CREATE VIEW VwdProduto AS
   SELECT 
