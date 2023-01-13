@@ -1,5 +1,5 @@
  -- VIEW TABELA dClientes 
- -- Realizado Join na tabela de geografia para pegar informações de localidade
+ -- Realizado Join na tabela de geografia para pegar informaÃ§Ãµes de localidade
  
  CREATE VIEW VwdCliente AS
 
@@ -33,7 +33,7 @@
 
 
 -- VIEW TABELA dLoja
---Na análise do PBI é usado apenas 3 lojas, essas filtradas no Where
+--Na anÃ¡lise do PBI Ã© usado apenas 3 lojas, essas filtradas no Where
 CREATE VIEW VwdLoja AS
 SELECT 
 	StoreKey AS 'IdLoja',
@@ -47,6 +47,7 @@ WHERE dLoja.StoreName IN (
 						)
 
 -- Criar tabela URLs 
+-- Tabela utilizada para incluir foto de cada categoria na tabela dProdutos
 
 CREATE TABLE dImagem (
 	[IdCategoria] int,
