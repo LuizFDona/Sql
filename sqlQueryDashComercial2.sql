@@ -1,6 +1,6 @@
  -- VIEW TABELA dClientes 
  -- Realizado Join na tabela de geografia para pegar informações de localidade
- DROP VIEW VwdCliente
+
 
  CREATE VIEW VwdCliente AS
 
